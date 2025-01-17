@@ -22,16 +22,16 @@ def measure_time(sort_function, data):
     return round(end_time - start_time, 3)
 
 
-data_sizes = [100, 1000, 10000, 100000]
+data_sizes = [100, 1000, 10000, 100000, 1000000, 10000000 , 100000000 , 1000000000]
 
 
 sorting_algorithms = [
-    ("Bubble Sort", bubble_sort),
-    ("Insertion Sort", insertion_sort),
-    ("Quick Sort", quick_sort),
-    ("Merge Sort", merge_sort),
-    ("TimSort", tim_sort),
-    ("IntroSort", intro_sort),
+    # ("Bubble Sort", bubble_sort),
+    # ("Insertion Sort", insertion_sort),
+    # ("Quick Sort", quick_sort),
+    # ("Merge Sort", merge_sort),
+    # ("TimSort", tim_sort),
+    # ("IntroSort", intro_sort),
     ("PythonSort", py_sort),
     ("BucketSort", bucket_sort)
 ]
